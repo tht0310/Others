@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>			</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+	</body>
+</html> 
+----------------------------------------------------------------------
+Link: <a href="			" 
+		title="			">			 </a>
+----------------------------------------------------------------------
+Image: <img src="		" alt="			"/>
+----------------------------------------------------------------------
+Heading(h1-h6): <h1>		</h1>
+----------------------------------------------------------------------
+Paragraph: <p>			</p>
+----------------------------------------------------------------------
+List:
+	Odered List: <ol type="	">
+					<li>			</li>			
+					<li>			</li>			
+					...
+				 </ol>
+				 
+	Unordered List: <ul type="	">
+						<li>			</li>			
+						<li>			</li>			
+						...
+					</ul>
+					
+	Definition List: <dl>
+						<dt>		</dt>
+						<dd>			</dd>
+						
+						<dt>		</dt>
+						<dd>			</dd>
+						...
+					</dl>
+----------------------------------------------------------------------			
+Table: <table border="	">
+			<tr> //row(s)
+				<th>			</th> //column(s)
+				<th>			</th> //column(s)
+				...
+			</tr>
+			
+			<tr> //row(s)
+				<td>			</td> //column(s)
+				<td>			</td> //column(s)
+				...
+			</tr>
+			...
+	   </table>
+----------------------------------------------------------------------	
+Complete Table: <table border="	" cellspacing="15" cellpadding="0">
+					<colgroup>
+						<col style="width: 100px"/>
+						...
+					</colgroup>
+					
+					<thead>
+						<tr>
+							<th>			</th>
+							...
+						</tr>
+					</thead>
+					
+					<tfoot>
+						<tr>
+							<td>			</td>
+							...
+						</tr>
+					</tfoot>
+					
+					<tbody>
+						<tr> //row(s)
+							<td>			</td> //column(s)
+							<td>			</td> //column(s)
+							...
+						</tr>
+						...
+					</tbody>
+				</table>
+----------------------------------------------------------------------					
+Nested Tables: <table>
+					<tr>
+						<td>			</td>
+						
+						<td>
+							<table>
+								<tr>
+									<td>			</td>
+									...
+								</tr>
+							</table>
+						</td>
+						
+					</tr>
+					...
+			   </table>
+----------------------------------------------------------------------	
+Form: <form name="myForm" method="post/get" action="path/to/some-script.php" />
+----------------------------------------------------------------------
+Text Fields: 
+	Text: <input type="text" name="text" value="This is a text field" />
+
+	Email: <label for="email">Email</label>
+		   <input type="email" id="email" name="address" required="true" />
+
+	Password: <label for="password">Password</label>
+			  <input type="password" id="password "name="password"/>
+
+	Text Area: <label for="textarea">Text Area</label>
+			   <textarea rows="8" name="textarea" id="textarea"></textarea>		  
+----------------------------------------------------------------------
+Buttons: <input type="reset" name="reset" value="Reset">
+		 <input type="submit" name="submit" value="Submit">
+		 <input type="button" name="button" value="Click me">		 
+----------------------------------------------------------------------
+
+Checkboxes and Radio Buttons: 
+			<fieldset>
+				<legend>		</legend>
+				<input type="checkbox" name="		" value="		"/>			<br>
+				<input type="radio" name="		" value="		"/>			<br>
+			</fieldset>
+----------------------------------------------------------------------	
+Dropdown menu: <select name="		">
+					<option value="		" selected="selected">		</option>
+					<option value="		">		</option>
+			   </select>
+----------------------------------------------------------------------	
+Range and Spinbox: <input type="range" min="	" max="		" step="	"/>
+				   <input type="number" min="	" max="		"/>
+----------------------------------------------------------------------	
+Frame: <iframe name="	" 
+				src="		"
+				width="700"
+				height="400"
+				frameborder="yes"
+				scrolling="yes">
+	   </iframe>			   
+----------------------------------------------------------------------	
+				  
+
+				
+			   
